@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+    <h1>Contact Me</h1>
+    <br>
+
+    <form>
+        <div class="row">
+            <div class="col-6 mx-auto">
+                <div class="md-3">
+                    <label for="fnameInput" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="fnameInput" aria-describedby="fnameInput">
+                </div>
+                <div class="md-3">
+                    <label for="lnameInput" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lnameInput" aria-describedby="lnameInput">
+                </div>
+                <div class="md-3">
+                    <label for="emailInput" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp">
+                </div>
+                <div class="md-3">
+                    <label for="messageInput" class="form-label">Message</label>
+                    <textarea class="form-control" id="messageInput" rows="5"></textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-secondary">Submit</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
